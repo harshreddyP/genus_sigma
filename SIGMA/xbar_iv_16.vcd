@@ -1,0 +1,525 @@
+$date
+	Tue Apr 13 17:50:36 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_crossbar $end
+$var wire 256 ! o_dist_bus [255:0] $end
+$var reg 1 " clk $end
+$var reg 11 # counter [10:0] $end
+$var reg 256 $ i_data_bus [255:0] $end
+$var reg 1024 % i_data_list_bus [1023:0] $end
+$var reg 1024 & i_dest_bus [1023:0] $end
+$var reg 64 ' i_mux_bus [63:0] $end
+$var reg 1 ( rst $end
+$scope module my_xbar_1 $end
+$var wire 1 " clk $end
+$var wire 256 ) i_data_bus [255:0] $end
+$var wire 64 * i_mux_bus [63:0] $end
+$var wire 1 ( rst $end
+$var wire 256 + w_dist_bus [255:0] $end
+$var reg 256 , o_dist_bus [255:0] $end
+$scope begin gen_out[0] $end
+$scope module my_mux $end
+$var wire 1 " clk $end
+$var wire 256 - i_data_bus [255:0] $end
+$var wire 4 . i_mux_sel [3:0] $end
+$var wire 1 ( rst $end
+$var reg 16 / o_dist [15:0] $end
+$upscope $end
+$upscope $end
+$scope begin gen_out[1] $end
+$scope module my_mux $end
+$var wire 1 " clk $end
+$var wire 256 0 i_data_bus [255:0] $end
+$var wire 4 1 i_mux_sel [3:0] $end
+$var wire 1 ( rst $end
+$var reg 16 2 o_dist [15:0] $end
+$upscope $end
+$upscope $end
+$scope begin gen_out[2] $end
+$scope module my_mux $end
+$var wire 1 " clk $end
+$var wire 256 3 i_data_bus [255:0] $end
+$var wire 4 4 i_mux_sel [3:0] $end
+$var wire 1 ( rst $end
+$var reg 16 5 o_dist [15:0] $end
+$upscope $end
+$upscope $end
+$scope begin gen_out[3] $end
+$scope module my_mux $end
+$var wire 1 " clk $end
+$var wire 256 6 i_data_bus [255:0] $end
+$var wire 4 7 i_mux_sel [3:0] $end
+$var wire 1 ( rst $end
+$var reg 16 8 o_dist [15:0] $end
+$upscope $end
+$upscope $end
+$scope begin gen_out[4] $end
+$scope module my_mux $end
+$var wire 1 " clk $end
+$var wire 256 9 i_data_bus [255:0] $end
+$var wire 4 : i_mux_sel [3:0] $end
+$var wire 1 ( rst $end
+$var reg 16 ; o_dist [15:0] $end
+$upscope $end
+$upscope $end
+$scope begin gen_out[5] $end
+$scope module my_mux $end
+$var wire 1 " clk $end
+$var wire 256 < i_data_bus [255:0] $end
+$var wire 4 = i_mux_sel [3:0] $end
+$var wire 1 ( rst $end
+$var reg 16 > o_dist [15:0] $end
+$upscope $end
+$upscope $end
+$scope begin gen_out[6] $end
+$scope module my_mux $end
+$var wire 1 " clk $end
+$var wire 256 ? i_data_bus [255:0] $end
+$var wire 4 @ i_mux_sel [3:0] $end
+$var wire 1 ( rst $end
+$var reg 16 A o_dist [15:0] $end
+$upscope $end
+$upscope $end
+$scope begin gen_out[7] $end
+$scope module my_mux $end
+$var wire 1 " clk $end
+$var wire 256 B i_data_bus [255:0] $end
+$var wire 4 C i_mux_sel [3:0] $end
+$var wire 1 ( rst $end
+$var reg 16 D o_dist [15:0] $end
+$upscope $end
+$upscope $end
+$scope begin gen_out[8] $end
+$scope module my_mux $end
+$var wire 1 " clk $end
+$var wire 256 E i_data_bus [255:0] $end
+$var wire 4 F i_mux_sel [3:0] $end
+$var wire 1 ( rst $end
+$var reg 16 G o_dist [15:0] $end
+$upscope $end
+$upscope $end
+$scope begin gen_out[9] $end
+$scope module my_mux $end
+$var wire 1 " clk $end
+$var wire 256 H i_data_bus [255:0] $end
+$var wire 4 I i_mux_sel [3:0] $end
+$var wire 1 ( rst $end
+$var reg 16 J o_dist [15:0] $end
+$upscope $end
+$upscope $end
+$scope begin gen_out[10] $end
+$scope module my_mux $end
+$var wire 1 " clk $end
+$var wire 256 K i_data_bus [255:0] $end
+$var wire 4 L i_mux_sel [3:0] $end
+$var wire 1 ( rst $end
+$var reg 16 M o_dist [15:0] $end
+$upscope $end
+$upscope $end
+$scope begin gen_out[11] $end
+$scope module my_mux $end
+$var wire 1 " clk $end
+$var wire 256 N i_data_bus [255:0] $end
+$var wire 4 O i_mux_sel [3:0] $end
+$var wire 1 ( rst $end
+$var reg 16 P o_dist [15:0] $end
+$upscope $end
+$upscope $end
+$scope begin gen_out[12] $end
+$scope module my_mux $end
+$var wire 1 " clk $end
+$var wire 256 Q i_data_bus [255:0] $end
+$var wire 4 R i_mux_sel [3:0] $end
+$var wire 1 ( rst $end
+$var reg 16 S o_dist [15:0] $end
+$upscope $end
+$upscope $end
+$scope begin gen_out[13] $end
+$scope module my_mux $end
+$var wire 1 " clk $end
+$var wire 256 T i_data_bus [255:0] $end
+$var wire 4 U i_mux_sel [3:0] $end
+$var wire 1 ( rst $end
+$var reg 16 V o_dist [15:0] $end
+$upscope $end
+$upscope $end
+$scope begin gen_out[14] $end
+$scope module my_mux $end
+$var wire 1 " clk $end
+$var wire 256 W i_data_bus [255:0] $end
+$var wire 4 X i_mux_sel [3:0] $end
+$var wire 1 ( rst $end
+$var reg 16 Y o_dist [15:0] $end
+$upscope $end
+$upscope $end
+$scope begin gen_out[15] $end
+$scope module my_mux $end
+$var wire 1 " clk $end
+$var wire 256 Z i_data_bus [255:0] $end
+$var wire 4 [ i_mux_sel [3:0] $end
+$var wire 1 ( rst $end
+$var reg 16 \ o_dist [15:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx \
+bx [
+bx Z
+bx Y
+bx X
+bx W
+bx V
+bx U
+bx T
+bx S
+bx R
+bx Q
+bx P
+bx O
+bx N
+bx M
+bx L
+bx K
+bx J
+bx I
+bx H
+bx G
+bx F
+bx E
+bx D
+bx C
+bx B
+bx A
+bx @
+bx ?
+bx >
+bx =
+bx <
+bx ;
+bx :
+bx 9
+bx 8
+bx 7
+bx 6
+bx 5
+bx 4
+bx 3
+bx 2
+bx 1
+bx 0
+bx /
+bx .
+bx -
+bx ,
+bx +
+bx *
+bx )
+1(
+bx '
+b1111111011011100101110101001100001110110010101000011001000010000111111101101110011111110110111001111111011011100111111101101110011111110110111001111111011011100111111101101110011111110110111001111111011011100111111101101110011111110110111001111111011011100 &
+b11111110000000010000000000000001000000010000000100000010000000010000001010000001000000110000000100000011100000010000010000000001000001000100000100000100100000010000010011000001000001010000000100000101010000010000010110000001000001011100000100000110000000001111111000000001000000101000000100000100010000010000010101000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000100000011000000010000010010000001000001011000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000001000000010000001110000001000001001100000100000101110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 %
+bx $
+b0 #
+0"
+bx !
+$end
+#1000
+b0 /
+b0 2
+b0 5
+b0 8
+b0 ;
+b0 >
+b0 A
+b0 D
+b0 G
+b0 J
+b0 M
+b0 P
+b0 S
+b0 V
+b0 Y
+b0 +
+b0 \
+b0 .
+b0 1
+b0 4
+b0 7
+b0 :
+b0 =
+b0 @
+b0 C
+b0 F
+b0 I
+b0 L
+b0 O
+b0 R
+b0 U
+b0 X
+b0 [
+b0 '
+b0 *
+b0 $
+b0 )
+b0 -
+b0 0
+b0 3
+b0 6
+b0 9
+b0 <
+b0 ?
+b0 B
+b0 E
+b0 H
+b0 K
+b0 N
+b0 Q
+b0 T
+b0 W
+b0 Z
+1"
+#2000
+0"
+#3000
+b0 !
+b0 ,
+1"
+#4000
+0"
+#5000
+b1100 .
+b1101 1
+b1 #
+b11011100 '
+b11011100 *
+1"
+0(
+#6000
+0"
+#7000
+b1110 .
+b1111 1
+b10 #
+b11111110 '
+b11111110 *
+1"
+#8000
+0"
+#9000
+b1100 .
+b1101 1
+b11 #
+b11011100 '
+b11011100 *
+1"
+#10000
+0"
+#11000
+b1110 .
+b1111 1
+b100000101110000 5
+b100000101110000 8
+b100000101110000 ;
+b100000101110000 >
+b100000101110000 A
+b100000101110000 D
+b100000101110000 G
+b100000101110000 J
+b100000101110000 M
+b100000101110000 P
+b100000101110000 S
+b100000101110000 V
+b100000101110000 Y
+b100000101110000010000010111000001000001011100000100000101110000010000010111000001000001011100000100000101110000010000010111000001000001011100000100000101110000010000010111000001000001011100000100000101110000010000010111000000000000000000000000000000000000 +
+b100000101110000 \
+b100 #
+b11111110 '
+b11111110 *
+b100000001000000010000001110000001000001001100000100000101110000 $
+b100000001000000010000001110000001000001001100000100000101110000 )
+b100000001000000010000001110000001000001001100000100000101110000 -
+b100000001000000010000001110000001000001001100000100000101110000 0
+b100000001000000010000001110000001000001001100000100000101110000 3
+b100000001000000010000001110000001000001001100000100000101110000 6
+b100000001000000010000001110000001000001001100000100000101110000 9
+b100000001000000010000001110000001000001001100000100000101110000 <
+b100000001000000010000001110000001000001001100000100000101110000 ?
+b100000001000000010000001110000001000001001100000100000101110000 B
+b100000001000000010000001110000001000001001100000100000101110000 E
+b100000001000000010000001110000001000001001100000100000101110000 H
+b100000001000000010000001110000001000001001100000100000101110000 K
+b100000001000000010000001110000001000001001100000100000101110000 N
+b100000001000000010000001110000001000001001100000100000101110000 Q
+b100000001000000010000001110000001000001001100000100000101110000 T
+b100000001000000010000001110000001000001001100000100000101110000 W
+b100000001000000010000001110000001000001001100000100000101110000 Z
+1"
+#12000
+0"
+#13000
+b0 .
+b0 1
+b0 5
+b0 8
+b0 ;
+b0 >
+b0 A
+b0 D
+b0 G
+b0 J
+b0 M
+b0 P
+b0 S
+b0 V
+b0 Y
+b0 +
+b0 \
+b100000101110000010000010111000001000001011100000100000101110000010000010111000001000001011100000100000101110000010000010111000001000001011100000100000101110000010000010111000001000001011100000100000101110000010000010111000000000000000000000000000000000000 !
+b100000101110000010000010111000001000001011100000100000101110000010000010111000001000001011100000100000101110000010000010111000001000001011100000100000101110000010000010111000001000001011100000100000101110000010000010111000000000000000000000000000000000000 ,
+b0 '
+b0 *
+b0 $
+b0 )
+b0 -
+b0 0
+b0 3
+b0 6
+b0 9
+b0 <
+b0 ?
+b0 B
+b0 E
+b0 H
+b0 K
+b0 N
+b0 Q
+b0 T
+b0 W
+b0 Z
+1"
+#14000
+0"
+#15000
+b0 !
+b0 ,
+1"
+#16000
+0"
+#17000
+1"
+#18000
+0"
+#19000
+1"
+#20000
+0"
+#21000
+1"
+#22000
+0"
+#23000
+1"
+#24000
+0"
+#25000
+1"
+#26000
+0"
+#27000
+1"
+#28000
+0"
+#29000
+1"
+#30000
+0"
+#31000
+1"
+#32000
+0"
+#33000
+1"
+#34000
+0"
+#35000
+1"
+#36000
+0"
+#37000
+1"
+#38000
+0"
+#39000
+1"
+#40000
+0"
+#41000
+1"
+#42000
+0"
+#43000
+1"
+#44000
+0"
+#45000
+1"
+#46000
+0"
+#47000
+1"
+#48000
+0"
+#49000
+1"
+#50000
+0"
+#51000
+1"
+#52000
+0"
+#53000
+1"
+#54000
+0"
+#55000
+1"
+#56000
+0"
+#57000
+1"
+#58000
+0"
+#59000
+1"
+#60000
+0"
+#61000
+1"
+#62000
+0"
+#63000
+1"
+#64000
+0"
+#65000
+1"
+#66000
+0"
+#67000
+1"
+#68000
+0"
+#69000
+1"
+#70000
+0"

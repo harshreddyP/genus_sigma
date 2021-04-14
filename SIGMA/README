@@ -1,0 +1,19 @@
+SIGMA RTL
+Author: Eric Qin
+Contact: ecqin@gatech.edu
+
+*** Under construction ***
+
+SIGMA Flex-DPE RTL.
+
+Compile verilog files:
+	Run "make clean test"
+
+Open Waveform Viewer:
+	Run "make dve"
+
+High level details can be found in the powerpoint.
+
+
+
+
