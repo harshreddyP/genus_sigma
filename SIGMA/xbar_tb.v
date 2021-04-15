@@ -55,7 +55,7 @@
         clk = 0;
         #5
         rst = 0;
-        #65 $finish;
+        #18 $finish;
         end
         
 	always
@@ -83,7 +83,7 @@
 			8'b11_10_01_00, // streaming
 			8'b11_10_01_00};	
 	*/
-	reg [(NUM_PES * DATA_TYPE * NUM_TESTS)-1 : 0] i_dest_bus =
+	reg [(NUM_PES * LOG2_PES * NUM_TESTS)-1 : 0] i_dest_bus =
 		{
 			64'b1111_1110_1101_1100_1011_1010_1001_1000_0111_0110_0101_0100_0011_0010_0001_0000, // stationary
 			64'b1111_1110_1101_1100_1111_1110_1101_1100_1111_1110_1101_1100_1111_1110_1101_1100, // streaming
@@ -92,8 +92,8 @@
 			//*/		
     always @ (posedge clk) begin
 		if (rst == 1'b0 && counter < NUM_TESTS) begin
-			i_data_bus = i_data_list_bus[counter*64 +: 64];
-			i_mux_bus = i_dest_bus[counter*8 +: 8];
+			i_data_bus = i_data_list_bus[counter*(INPUT_BW*DATA_TYPE) +: (INPUT_BW*DATA_TYPE)];
+			i_mux_bus = i_dest_bus[counter*(LOG2_PES * NUM_PES) +: (LOG2_PES * NUM_PES)];
 			if (counter < NUM_TESTS) begin
 				counter = counter + 1'b1;
 			end
