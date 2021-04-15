@@ -35,12 +35,7 @@
         
             reg [10:0] counter = 'd0;
 
-        xbar #(
-            .DATA_TYPE(DATA_TYPE),
-            .NUM_PES(NUM_PES),
-            .INPUT_BW(NUM_PES),
-            .LOG2_PES(LOG2_PES))
-            my_xbar_1 (
+        xbar my_xbar_1 (
             .clk(clk),
             .rst(rst),
             .i_data_bus(i_data_bus),
@@ -49,7 +44,7 @@
         );
         
         initial begin
-        $dumpfile ("xbar_iv_16.vcd");
+        $dumpfile ("xbar_iv_16syn.vcd");
         $dumpvars;
         rst = 1;
         clk = 0;
